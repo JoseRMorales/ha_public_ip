@@ -1,0 +1,19 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "description": "Escribe el nombre del sensor para identificar la IP pública.",
+                "data": {
+                    "name": "Nombre"
+                }
+            }
+        },
+        "error": {
+            "connection": "No se puede conectar al servidor.",
+            "unknown": "Se ha producido un error desconocido."
+        },
+        "abort": {
+            "already_configured": "Esta entrada ya está configurada."
+        }
+    }
+}
